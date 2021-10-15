@@ -1,0 +1,36 @@
+#main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./img/ba1.jpg");
+  min-height: 700px;
+  max-height: 1100px;
+  max-width: 1600px;
+  background-size: cover;
+}
+
+
+.nav {
+  background: linear-gradient(
+    90deg,
+    hsla(206, 51%, 21%, 1) 0%,
+    rgb(32, 114, 141) 99%
+  );
+}
+
+.card-deck {
+  justify-content: center;
+  max-width: 1200px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+#form {
+  max-width: 800px;
+}
+
+.nav-link {
+  color: white;
+}
+
+a:hover,
+a:focus {
+  color: #ffd200;
+}
